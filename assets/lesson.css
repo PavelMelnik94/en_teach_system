@@ -1,0 +1,7 @@
+:root { color-scheme: light; font-family: system-ui, -apple-system, sans-serif; line-height: 1.55; }
+body { max-width: 44rem; margin: 2rem auto; padding: 0 1rem; color: #202124; background: #fafafa; }
+main { background: white; padding: 2rem; border: 1px solid #e5e7eb; border-radius: 12px; }
+h1 { line-height: 1.15; }
+.pattern { padding: .8rem 1rem; margin: 1rem 0; border-left: 4px solid #3b82f6; background: #eff6ff; }
+.note { color: #4b5563; font-size: .95rem; }
+a { color: #1d4ed8; }
