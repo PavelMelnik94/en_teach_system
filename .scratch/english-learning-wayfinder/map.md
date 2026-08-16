@@ -19,14 +19,14 @@ Consult `teach/SKILL.md`, `grilling`, `domain-modeling`, and `research` when the
 - [Mastery and progression policy](issues/02-mastery-and-progression-policy.md) — Mastery is a slice-level evidence profile; progression uses a local prerequisite floor with delayed evidence for stability, targeted local remediation, and no universal accuracy/SRS threshold.
 - [Baseline diagnostic policy](issues/03-baseline-diagnostic.md) — A compact adaptive, low-stakes diagnostic produces confidence-tagged task evidence, stops when the productive zone is clear, and may begin learning before delayed follow-up.
 - [Evidence and next-material policy](issues/04-evidence-and-next-material-policy.md) — `/teach` selects an explainable bounded objective through qualitative blocker tiers and contextual decision checks, with adaptive mixed sessions and functional relevance tie-breaks.
+- [Retention, review, and interleaving policy](issues/05-retention-review-and-interleaving.md) — Review uses delayed retrieval, purposeful interleaving, transfer, and local remediation with qualitative priority and no universal SRS schedule or review backlog.
 
 ## Not yet specified
 
 - How learner capabilities should be represented across life, social, work, interview, grammar, listening, speaking, pronunciation, vocabulary, and repair.
-- How delayed retention, interleaving, modality progression, resource authority, and real-call readiness should be operationalized.
 - Which `/teach` artifacts need conventions or extensions once the learning policy is known.
 - How `/teach` should persist evidence profiles, confidence, provisional results, and diagnostic follow-ups without duplicating state.
-- How to operationalize delayed review, interleaving, and retention horizons within the evidence profile.
+- How to operationalize modality progression, resource authority, and real-call readiness within the evidence profile.
 
 ## Out of scope
 
