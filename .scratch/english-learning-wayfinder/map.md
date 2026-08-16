@@ -1,6 +1,6 @@
 # Wayfinder: Personal English Learning Workspace
 
-Status: Open
+Status: Closed
 Type: wayfinder:map
 
 ## Destination
@@ -24,10 +24,11 @@ Consult `teach/SKILL.md`, `grilling`, `domain-modeling`, and `research` when the
 - [Teach state contract](issues/07-teach-state-contract.md) — Standard `/teach` artifacts keep their roles, while one compact `LEARNING-STATE.md` snapshot carries current evidence, objective, blockers, review needs, and resume direction.
 - [Authoritative resource policy](issues/08-authoritative-resource-policy.md) — `RESOURCES.md` stays a curated, provenance-aware registry with bounded lookup/research rules and domain-specific source/conflict/copyright policies.
 - [Learning horizon and session policy](issues/09-learning-horizon-and-session-policy.md) — Four adaptive horizons use the existing mission/state contract; sessions are evidence-driven, duration-flexible, modality-aware, and protected against hidden curriculum drift.
+- [Functional readiness and call benchmark](issues/10-functional-readiness-and-call-benchmark.md) — Readiness is a derived capability-specific interpretation with observable Life/Social/Work/Interview/team-call outcomes, converging evidence, repair, and practical application/team thresholds.
 
 ## Not yet specified
 
-- How to operationalize real-call readiness within the evidence profile.
+None — the decision map has reached its destination.
 
 ## Out of scope
 
