@@ -1,0 +1,12 @@
+{
+  "name": "en-teach-system",
+  "private": true,
+  "scripts": {
+    "voice": "tsx tools/voice/index.ts",
+    "test": "tsx --test tools/voice/*.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
