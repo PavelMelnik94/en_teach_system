@@ -1,6 +1,6 @@
 # Learning State
 
-Updated: 2026-08-16 — progression paused after learner feedback; acquisition policy corrected.
+Updated: 2026-08-17 — teaching interaction corrected after redundant check.
 
 ## Resume summary
 
@@ -18,7 +18,7 @@ Current personal context: Pavel is currently in Minsk, is from Minsk, and plans 
 
 ## Current bounded objective
 
-**Prerequisite acquisition: English sentences need an explicit verb** — understand one small mental model: English uses a verb to say what happens or to link a person to a description/origin; in `Pavel is from Minsk`, `is` is the verb. Status: acquisition paused at explanation/comprehension check. Do not run delayed retrieval of `live in / be from` until meaningful acquisition evidence exists. Later return to `be` forms and `live in` separately, then contrast them.
+**Prerequisite acquisition: English sentences need an explicit verb** — understand one small mental model: English uses a verb to say what happens or to link a person to a description/origin; in `Pavel is from Minsk`, `is` is the verb. Status: independent familiar conceptual understanding: Pavel correctly classified unseen examples as action verbs versus linking `is` without a visible rule. Subject–`be` forms (`I am`, one person `is`, `you/we/they are`) were retrieved closed-book across familiar sentences. Retention is provisional. Pavel distinguished that `be in` and `live in` answer different questions; do not repeat this comprehension check. Move to one meaningful contextual example next, or stop if the concept is sufficient for the session.
 
 Why now → learner feedback shows the first lesson produced pattern matching with the rule visible, not understanding. The earliest prerequisite is the role of a verb and `be`; this must be taught and explained before testing the larger contrast.
 
@@ -60,3 +60,11 @@ Teach one small Russian-supported mental model about the role of a verb and `be`
 - 2026-08-16: in a new-name transfer prompt, `is from`/`lives in` forms were correct; the requested city detail was substituted, so delayed retrieval remains planned.
 - 2026-08-16: corrected `Nino lives in Tbilisi`; first lesson purpose completed, with delayed retrieval still provisional.
 - 2026-08-16: learner reported pattern copying, visible-rule dependence, and missing understanding; previous mastery interpretation was downgraded to guided/open-reference evidence and progression paused.
+- 2026-08-16: first Russian explanation of the verb prerequisite was still unclear; learner asked what `is` is, how it translates, and whether English can ever form a sentence without a verb.
+- 2026-08-16: Pavel explained `is` as linking `Pavel` and `tired`; the rule boundary was clarified from “all sentences” to ordinary complete sentences versus fragments/short fixed utterances.
+- 2026-08-17: Pavel independently classified `works/lives` as actions and `is` as description/linking in four unseen examples.
+- 2026-08-17: Pavel understands `I` versus `Pavel/he`, but does not yet know `we`/`they` and expects `you is`; keep subject-pronoun vocabulary and `you are` as the next small acquisition target.
+- 2026-08-17: Pavel correctly recalled `we/they/you` meanings and the rule `you/we/they = are`, but reported that `you are` is not yet memorable/automatic; classify as supported retrieval, not independent production.
+- 2026-08-17: Pavel retrieved `You are in Minsk`, `You are from Minsk`, and `You are tired` without the table or visible rule; `you are` is independent familiar evidence, provisional for retention.
+- 2026-08-17: Pavel retrieved `I am tired`, `Pavel is in Minsk`, and `They are from Minsk` without visible support; subject–`be` agreement is independent familiar evidence, provisional for retention.
+- 2026-08-17: Pavel identified the distinction between current location and residence, then flagged redundant copy-like comprehension checks; teaching interaction policy corrected.
