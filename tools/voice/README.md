@@ -20,4 +20,6 @@ The adapter must conduct the bounded 5–10 minute interaction, speak Russian fo
 
 The repository does not ship a provider or call an API by itself. This keeps the protocol usable from Codex CLI, VS Code, Claude Code, ChatGPT Web handoff, or another local voice-capable runtime. Secrets belong in `.env.local` or the provider's environment, never in task files.
 
+For a provider-independent manual handoff, copy `.env.local.example` to `.env.local` and run `npm run voice`. The built-in manual adapter waits for a voice-capable client to read `current.md` and save the returned `VOICE_RESULT` to `result.md`; it does not fabricate audio evidence.
+
 If a result already exists, the command aborts to protect it. `npm run voice -- --restart` archives the existing result before a new attempt.

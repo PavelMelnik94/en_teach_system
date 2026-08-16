@@ -3,11 +3,27 @@ import { mkdtemp, mkdir, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
-import { findRepoRoot } from "./files.js";
+import { findRepoRoot, loadLocalEnv } from "./files.js";
 import { run } from "./index.js";
 
 test("finds repository root", async () => {
   assert.equal(await findRepoRoot(process.cwd()), process.cwd());
+});
+
+test("loads local provider config without overriding explicit environment", async () => {
+  const root = await mkdtemp(join(tmpdir(), "voice-bridge-"));
+  await mkdir(join(root, ".git"));
+  await writeFile(join(root, ".env.local"), "VOICE_PROVIDER_COMMAND=manual\nEXTRA=value\n");
+  const original = process.env.VOICE_PROVIDER_COMMAND;
+  process.env.VOICE_PROVIDER_COMMAND = "explicit";
+  try {
+    const environment = await loadLocalEnv(root);
+    assert.equal(environment.VOICE_PROVIDER_COMMAND, "explicit");
+    assert.equal(environment.EXTRA, "value");
+  } finally {
+    if (original === undefined) delete process.env.VOICE_PROVIDER_COMMAND;
+    else process.env.VOICE_PROVIDER_COMMAND = original;
+  }
 });
 
 test("missing task returns the documented status", async () => {

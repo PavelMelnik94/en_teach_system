@@ -1,6 +1,6 @@
 import { join } from "node:path";
 import { rename } from "node:fs/promises";
-import { findRepoRoot, currentPath, resultPath, exists, readText } from "./files.js";
+import { findRepoRoot, currentPath, resultPath, exists, loadLocalEnv, readText } from "./files.js";
 import { parseResult, readTask } from "./protocol.js";
 import { runConfiguredProvider } from "./provider.js";
 
@@ -12,9 +12,9 @@ export const run = async (options: {
   env?: NodeJS.ProcessEnv;
   args?: string[];
 } = {}): Promise<number> => {
-  const env = options.env ?? process.env;
   const args = options.args ?? process.argv.slice(2);
   const root = await findRepoRoot(options.cwd);
+  const env = options.env ?? await loadLocalEnv(root);
   const taskPath = currentPath(root);
   const outputPath = resultPath(root);
 

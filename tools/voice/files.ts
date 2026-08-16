@@ -36,3 +36,16 @@ export const atomicWrite = async (path: string, content: string): Promise<void> 
 };
 
 export const readText = (path: string): Promise<string> => readFile(path, "utf8");
+
+export const loadLocalEnv = async (root: string): Promise<NodeJS.ProcessEnv> => {
+  const environment = { ...process.env };
+  const path = join(root, ".env.local");
+  if (!(await exists(path))) return environment;
+
+  for (const line of (await readText(path)).split(/\r?\n/)) {
+    const match = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*?)\s*$/);
+    if (!match || match[1] in environment) continue;
+    environment[match[1]] = match[2].replace(/^(['"])(.*)\1$/, "$2");
+  }
+  return environment;
+};
