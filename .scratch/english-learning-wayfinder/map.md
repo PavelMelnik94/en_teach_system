@@ -15,7 +15,7 @@ Consult `teach/SKILL.md`, `grilling`, `domain-modeling`, and `research` when the
 
 ## Decisions so far
 
-None.
+- [Capability and outcome model](issues/01-capability-and-outcome-model.md) — Capabilities are situation-bound communicative outcomes described flexibly by context, function, mode, and support; partial and cross-context transfer matter more than CEFR labels.
 
 ## Not yet specified
 
@@ -23,6 +23,7 @@ None.
 - What evidence is sufficient for advancement, what counts as mastery, and how to avoid both premature progression and endless polishing.
 - How baseline uncertainty, delayed retention, interleaving, modality progression, resource authority, and real-call readiness should be operationalized.
 - Which `/teach` artifacts need conventions or extensions once the learning policy is known.
+- How to represent uneven capability profiles and transfer evidence without turning the descriptive model into a rigid matrix.
 
 ## Out of scope
 
