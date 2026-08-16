@@ -1,5 +1,6 @@
 Type: wayfinder:grilling
 Status: Closed
+Assignee: Codex (current Wayfinder session)
 Blocked by: 02-mastery-and-progression-policy.md, 04-evidence-and-next-material-policy.md
 
 ## Question
