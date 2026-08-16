@@ -1,10 +1,12 @@
 # Learning State
 
-Updated: 2026-08-16 — first objective selected after baseline probes.
+Updated: 2026-08-16 — teaching-language policy corrected during first lesson.
 
 ## Resume summary
 
 Self-reported A1 is an unverified starting hypothesis. Text interaction is available; audio playback and voice input have not been verified, so listening and speaking remain `unknown / insufficiently probed` until tested.
+
+Teaching language: Russian for grammar explanations, instructions, feedback, and error analysis. English is target material and practice only, with Russian support added as needed; reduce instructional Russian only after comprehension evidence.
 
 ## Near-term direction
 
@@ -46,3 +48,4 @@ Complete the first bounded lesson on `live in` vs `be from` with self/other desc
 
 - 2026-08-16: Initialized `/teach` workspace from the closed Wayfinder launch contract; no lessons or learning records yet.
 - 2026-08-16: Reading gist/detail was successful; written help requests recovered the intended meaning. `lives` transferred partly, but `live in` vs `be from` was confused; rule-peeking means the latest evidence is supported, not independent.
+- 2026-08-16: English-only lesson instructions were corrected; Russian instructional support is a durable constraint at the current level.
