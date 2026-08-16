@@ -16,6 +16,7 @@ Build practical English for life in Tbilisi, social interaction, and working in 
 - Native language: Russian. Early grammar, instructions, and error explanations should be primarily in Russian; English exposure increases with comprehension.
 - Teaching-language policy: grammar explanations, task instructions, feedback, and error analysis are in Russian at the current stage. English is used for target examples, phrases, sentences, and direct language practice, with Russian translation or clarification when needed. Reduce Russian instructional support only when comprehension evidence supports it.
 - Acquisition policy: for a new foundational concept, establish a simple mental model and check the learner's explanation before closed-book retrieval or delayed review. Open-reference and guided practice are acquisition evidence, not independent mastery.
+- Session policy: every session has an explicit learner-facing goal and an explicit ending; after `Урок закончен`, do not begin another objective in the same interaction without explicit continuation.
 - Current level is only a self-reported A1 hypothesis. Previous learning included tutors, Duolingo, LinguaLeo, self-study grammar, and Skyeng A1→A2; LinguaLeo felt most useful.
 - Listening and speaking are priority modes; reading supports them, and writing is secondary.
 - Sessions should work in about 10–40 minutes and adapt to evidence, cognitive load, available modality, and real-life relevance.
