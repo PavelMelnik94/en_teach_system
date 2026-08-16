@@ -20,13 +20,14 @@ Consult `teach/SKILL.md`, `grilling`, `domain-modeling`, and `research` when the
 - [Baseline diagnostic policy](issues/03-baseline-diagnostic.md) — A compact adaptive, low-stakes diagnostic produces confidence-tagged task evidence, stops when the productive zone is clear, and may begin learning before delayed follow-up.
 - [Evidence and next-material policy](issues/04-evidence-and-next-material-policy.md) — `/teach` selects an explainable bounded objective through qualitative blocker tiers and contextual decision checks, with adaptive mixed sessions and functional relevance tie-breaks.
 - [Retention, review, and interleaving policy](issues/05-retention-review-and-interleaving.md) — Review uses delayed retrieval, purposeful interleaving, transfer, and local remediation with qualitative priority and no universal SRS schedule or review backlog.
+- [Modality and repair progression](issues/06-modality-and-repair-progression.md) — Modes share capability objectives but keep separate evidence; listening/speaking progress through manipulable task demands, and repair is matched to breakdown type from the start.
 
 ## Not yet specified
 
 - How learner capabilities should be represented across life, social, work, interview, grammar, listening, speaking, pronunciation, vocabulary, and repair.
 - Which `/teach` artifacts need conventions or extensions once the learning policy is known.
 - How `/teach` should persist evidence profiles, confidence, provisional results, and diagnostic follow-ups without duplicating state.
-- How to operationalize modality progression, resource authority, and real-call readiness within the evidence profile.
+- How to select authoritative resources and operationalize real-call readiness within the evidence profile.
 
 ## Out of scope
 
