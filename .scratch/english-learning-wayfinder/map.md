@@ -22,10 +22,11 @@ Consult `teach/SKILL.md`, `grilling`, `domain-modeling`, and `research` when the
 - [Retention, review, and interleaving policy](issues/05-retention-review-and-interleaving.md) — Review uses delayed retrieval, purposeful interleaving, transfer, and local remediation with qualitative priority and no universal SRS schedule or review backlog.
 - [Modality and repair progression](issues/06-modality-and-repair-progression.md) — Modes share capability objectives but keep separate evidence; listening/speaking progress through manipulable task demands, and repair is matched to breakdown type from the start.
 - [Teach state contract](issues/07-teach-state-contract.md) — Standard `/teach` artifacts keep their roles, while one compact `LEARNING-STATE.md` snapshot carries current evidence, objective, blockers, review needs, and resume direction.
+- [Authoritative resource policy](issues/08-authoritative-resource-policy.md) — `RESOURCES.md` stays a curated, provenance-aware registry with bounded lookup/research rules and domain-specific source/conflict/copyright policies.
 
 ## Not yet specified
 
-- How to select authoritative resources and operationalize real-call readiness within the evidence profile.
+- How to operationalize real-call readiness within the evidence profile.
 
 ## Out of scope
 
