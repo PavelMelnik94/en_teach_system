@@ -23,6 +23,7 @@ Consult `teach/SKILL.md`, `grilling`, `domain-modeling`, and `research` when the
 - [Modality and repair progression](issues/06-modality-and-repair-progression.md) — Modes share capability objectives but keep separate evidence; listening/speaking progress through manipulable task demands, and repair is matched to breakdown type from the start.
 - [Teach state contract](issues/07-teach-state-contract.md) — Standard `/teach` artifacts keep their roles, while one compact `LEARNING-STATE.md` snapshot carries current evidence, objective, blockers, review needs, and resume direction.
 - [Authoritative resource policy](issues/08-authoritative-resource-policy.md) — `RESOURCES.md` stays a curated, provenance-aware registry with bounded lookup/research rules and domain-specific source/conflict/copyright policies.
+- [Learning horizon and session policy](issues/09-learning-horizon-and-session-policy.md) — Four adaptive horizons use the existing mission/state contract; sessions are evidence-driven, duration-flexible, modality-aware, and protected against hidden curriculum drift.
 
 ## Not yet specified
 
