@@ -1,6 +1,6 @@
 # Learning State
 
-Updated: 2026-08-17 — current synthesis after text and first voice session; no active session.
+Updated: 2026-08-17 — current synthesis after clause-level `be` text and voice practice; no active session.
 
 ## Near-term direction
 
@@ -20,11 +20,15 @@ Build a clear foundation for describing location, residence, and origin in simpl
 - Voice pronunciation: not tested systematically; no positive pronunciation evidence inferred.
 - `be in` versus `live in`: distinction understood conceptually; production contrast is not yet independently acquired.
 - Earlier `live in / be from` outputs were open-reference/guided pattern matching and are not mastery evidence.
+- Clause-level `be`: after one correction, independently repaired `She is a developer and is tired` in both valid ways: `She is a developer and she is tired` and `She is a developer and tired`. Immediate transfer is successful; delayed retention remains untested.
+- Voice follow-up was partial: the two-`is` version was recognized after repetition, but the one-`is` item changed word order and did not test the intended pair. Both target sentences were eventually spoken, but a full model was needed for word order and the article; this is supported production, not independent spoken mastery.
+- Pronunciation/intelligibility: `she is` and `tired` were understandable in the recordings; accent nativeness was appropriately not assessed.
 
 ## Active blockers and weaknesses
 
 - Foundational acquisition blocker for `live in / be from`: do not test or delay-review the contrast yet.
-- Important weakness: transfer the `be` mental model to new clauses without copying examples; `I am at home and is tired` shows clause-level instability.
+- Clause boundaries with `and` were initially overgeneralized as always creating two independent parts; the learner then distinguished a repeated subject-plus-verb clause from two descriptions sharing one `be`. Flexible transfer and delayed retention remain untested.
+- Spoken form remains unstable without text: observed omission of `and`, `the developer` for `a developer`, and word-order confusion.
 - Important weakness: avoid `be` before an action verb (`I am learn English`); revisit later without stacking continuous forms.
 - Important weakness: beginner collocations such as `in bed` can overload the learner; introduce them only when needed and in context.
 
@@ -38,11 +42,11 @@ Build a clear foundation for describing location, residence, and origin in simpl
 - Listening gist/detail/parsing/response-readiness: controlled short voice input functional; natural-speed and broader parsing remain insufficiently probed.
 - Speaking production/interaction: partially functional with pauses and moderate support; spontaneous transfer remains provisional.
 - Repair: demonstrated for a conceptual breakdown in voice; broader repair coverage remains insufficiently probed.
-- Pronunciation/intelligibility: insufficiently probed; include a small relevant pronunciation check in future voice sessions.
+- Pronunciation/intelligibility: `she is` and `tired` were intelligible in one controlled voice task; broader spontaneous speech remains insufficiently probed.
 
 ## Next action
 
-At the next explicitly started session, announce one human-readable goal and continue acquisition with one small clause-level `be` idea, using a short programming/React analogy if needed. Do not start `live in / be from` or delayed retrieval automatically. Future voice sessions must include a small pronunciation/intelligibility probe when reasonable.
+At the next explicitly started session, announce one human-readable goal and repeat the exact original pair by listening only, then elicit both versions from meaning without visible text. Do not advance to the next `be` idea until this bounded spoken contrast is independently produced.
 
 ## Session status
 
